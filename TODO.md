@@ -40,6 +40,7 @@
   - Login page
   - Logout page
   - User profile page
+  - Post category
 
 - User settings page:
 

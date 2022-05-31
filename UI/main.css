@@ -1,0 +1,37 @@
+/* Blog  /  Main.css | MIT | v0.0.1 */
+
+body, html {
+    background-color: #131313;
+    color: #ddd;
+    margin: 0px;
+}
+
+#navigator {
+    height: fit-content;
+    background-color: #242424;
+    padding: 12px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#navigator > #title {
+    width: fit-content;
+}
+
+#navigator > #buttons {
+    display:flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 33.3%;
+    font-size: 2em;
+    color: #ddd !important;
+}
+
+#navigator > * > a {
+    color: #ddd;
+}
+
+
